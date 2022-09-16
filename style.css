@@ -1,0 +1,65 @@
+:root {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body,
+  * {
+    margin: 0;
+    padding: 0;
+    transition: .35s;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h3{
+    text-align: center;
+  }
+  #app {
+    height: 100vh;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+    height: 70%;
+    text-align: center;
+    transition: .35s;
+    font-size: 10px;
+    background-color: bisque;
+    border-radius: 1rem;
+  }
+  
+  .games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .option {
+    width: 30%;
+    margin: 10px 15px;
+    padding: 25px;
+    text-align: center;
+    font-size: 40px;
+    background-color: bisque;
+    transition: .35s;
+    border-radius: 2rem;
+  }
+  
+  .option:hover {
+    cursor: pointer;
+    background-color: burlywood;
+    transition: .35s;
+    transform: scale(105%);
+    -webkit-transform: scale(105%);
+    -moz-transform: scale(105%);
+    -ms-transform: scale(105%);
+    -o-transform: scale(105%);
+    -webkit-transition: .35s;
+    -moz-transition: .35s;
+    -ms-transition: .35s;
+    -o-transition: .35s;
+  }
